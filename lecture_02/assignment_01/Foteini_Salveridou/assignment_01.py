@@ -34,7 +34,7 @@ mesh = Mesh.from_shape(box)
 # Apply the Projection onto the mesh
 mesh_paral = mesh.transformed(P_paral)
 mesh_ortho = mesh.transformed(P_ortho )
-mesh_persp = mesh.transformed(P_persp)a
+mesh_persp = mesh.transformed(P_persp)
 
 # Create artists
 artist1 = BoxArtist(box)
